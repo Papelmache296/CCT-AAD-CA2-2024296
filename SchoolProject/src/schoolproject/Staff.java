@@ -20,7 +20,7 @@ public class Staff {
     private String jobTitle;       
     private String company;       
  
-    public Staff(String firstName, String lastName, String gender, double salary, String department,
+    public Staff(String firstName, String lastName, String gender,String email, double salary, String department,
                  String position, String jobTitle, String company){
         
         this.firstName = firstName;

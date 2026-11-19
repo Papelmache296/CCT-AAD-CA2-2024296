@@ -14,7 +14,15 @@ public class SchoolProject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+        //Creates a School object
+        School school = new School();
+        
+        //Read the staff info from the file
+        school.readFile("Applicants_Form.txt");
+        
+        //Display the total number of staff members
+        System.out.println("Ttotal staff members: " + school.getStaffMembers().size());
     }
     
 }
